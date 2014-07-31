@@ -171,7 +171,7 @@ static BOOL isRtl = NO; // keep rtl property here - danielgindi@gmail.com
     // Clear everything
     CGContextClearRect(context, rect);
     
-    float * gradientLocations = malloc(sizeof(float)*self.backgroundColors.count);
+    CGFloat * gradientLocations = malloc(sizeof(float)*self.backgroundColors.count);
     
     NSNumber * n;
     NSMutableArray * gradientColors = [NSMutableArray array];
